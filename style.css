@@ -1,0 +1,2055 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
+
+.header-main-wrap {
+  background: #000000;
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+
+.header-desktop {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("img/rectangle_901.jpeg") 50% / cover no-repeat;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+}
+.container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.header-inner-wrap {
+  margin-bottom: 331px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.primary {
+  margin: 32.5px 40px;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+}
+#sidebar{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  left: 110px;
+  top: 35px;
+  display: none;
+}
+
+.side-menu{
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-hide{
+  color: antiquewhite;
+}
+
+
+
+
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  margin-right: 40px;
+}
+.inner-frame {
+  margin: 14.5px 30.6px 14.5px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.icon-user {
+  margin-right: 10.9px;
+  width: 14.2px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.main-header-logo {
+  background: 50% / cover no-repeat;
+  position: absolute;
+  left: 50%;
+  top: 16px;
+  translate: -50% 0;
+  width: 140px;
+  height: 24px;
+  display: none;
+}
+.fa-user {
+  width: 14.2px;
+  height: 16px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.fa-user:hover {
+  color: aqua;
+}
+.log-in {
+  margin: 1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.log-in:hover {
+  color: aqua;
+  text-shadow: 0px 0px 3px aqua;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.btn {
+  cursor: pointer;
+}
+.btn-secondary {
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  margin-right: 10px;
+  display: flex;
+  padding: 14.5px 19.4px 14.5px 19px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.btn-secondary:hover {
+  box-shadow: 0px 0px 16px 3px aqua;
+}
+.book-classes-1 {
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-wrap: nowrap;
+}
+.button-primary-1 {
+  border-radius: 2px;
+  background: #ffffff;
+  padding: 15.5px 20px;
+  width: 118px;
+  box-sizing: border-box;
+}
+.button-primary-1:hover {
+  background-color: aqua;
+  box-shadow: 0px 0px 16px 3px aqua;
+  color: #ffffff;
+}
+.buy-classes {
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #000000;
+  text-wrap: nowrap;
+  display: flex;
+    justify-content: center;
+}
+.Sweat-recover-connect {
+  margin: 0 126px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.S-R-C {
+  margin: 0 0 26px 126px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: 12px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+.button-primary-2 {
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+  margin: 0 0 0 126px;
+  display: flex;
+  padding: 14.5px 0.1px 14.5px 0;
+  width: 160px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.button-primary-2:hover {
+  background-color: bisque;
+  color: #0d0d0d;
+}
+.join-us {
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+/* page2 start */
+
+
+#page-2 {
+  background: linear-gradient(
+      295.97deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 66.4%
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("rectangle_73.jpg") 50% / cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+
+
+.fitness-workout {
+  margin: 550px 212px 40px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.fitness-workout-1 {
+  margin-bottom: 30px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.classes {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.classes-weekly-1 {
+  margin-bottom: 15px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.classes-weekly-2 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.button-primary-3 {
+  border-radius: 2px;
+  background: #ffffff;
+  align-self: flex-start;
+  padding: 15.5px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.button-primary-3:hover {
+  background-color: darkgrey;
+  box-shadow: 0px 0px 10px 3px darkgray;
+}
+
+.book-classes {
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.yoga-hit-ride {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.y-h-r {
+  color: #ffffff;
+}
+
+/* .y-h-r:hover, .hit-page:hover, .ride-page:hover {
+  color: black;
+} */
+
+.yoga-page {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 145px 0 39px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.yoga {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.yoga-1 {
+  margin-bottom: 15px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.yoga-detail {
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.btn-join-us {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.btn-join-us:hover {
+  box-shadow: 0px 0px 5px 3px lightgray;
+  background-color: lightgray;
+  cursor: pointer;
+
+}
+.join-us-1 {
+  margin-right: 10.1px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+.fa-arrow-right {
+  margin: 0px;
+  width: 12px;
+  height: 8px;
+}
+
+.hit-page {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 145px 0 39px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* .y-h-r:hover , .y-h-r-header, .y-h-r-heading, .y-h-r-detail, .y-h-r-join-us {
+  color:black!important ;
+} */
+
+.hit {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.hit-1 {
+  margin-bottom: 15px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.hit-detail {
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.btn-join-us {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.join-us-2 {
+  margin-right: 10.1px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+.rectangle-6 {
+  margin: 3px 0;
+  width: 12px;
+  height: 8px;
+}
+.ride-page {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 145px 0 39px 40px;
+}
+
+.ride-page:hover,
+.hit-page:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: url("img/frame_5895.png") 100%, linear-gradient(#ffffff, #ffffff);
+  position: relative;
+ 
+  box-sizing: border-box;
+  color: #000000;
+}
+.ride {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.ride-1 {
+  margin-bottom: 15px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+.ride-detail {
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.btn-join-us {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.join-us-3 {
+  margin-right: 10.1px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+.rectangle-61 {
+  margin: 3px 0;
+  width: 12px;
+  height: 8px;
+}
+
+/* page-3 start */
+
+.page-3 {
+  background: linear-gradient(
+      68.66deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 50%
+    ),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("img/rectangle_771.jpeg") 50% / cover no-repeat;
+  position: relative;
+  
+  display: flex;
+  padding: 480px 40px 60px 40px;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.wellness-Spa {
+  margin-right: 148px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.wellness-spa-services {
+  margin-bottom: 30px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.take-wellness {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  text-wrap: nowrap;
+}
+.take-recovary {
+  margin-bottom: 15px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.wellness-info {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white, #ffffff);
+}
+.button-primary-4 {
+  border-radius: 2px;
+  background: var(--white, #ffffff);
+  align-self: flex-start;
+  padding: 15.5px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.button-primary-4:hover {
+  background-color: darkgrey;
+  box-shadow: 0px 0px 10px 3px darkgray;
+  cursor: pointer;
+}
+.explore-SPA-WELLNESS {
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--black, #000000);
+}
+
+.all-spa-wellness-services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  width: 100%;
+}
+.services-list {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+  transition: transform 1s;
+}
+.services-list:hover {
+  transform: scale(1.1, 1.1);
+}
+.names-line {
+  background: rgba(255, 255, 255, 0.5);
+  width: 420px;
+  height: 1px;
+}
+.services-name {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+  width: 100%;
+  margin: 19px 0px;
+}
+.inner-service-name{
+  color: #ffffff;
+}
+.exclusive {
+  margin-right: 0.6px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0px;
+}
+.services-name-saltwater-hydrotherapy {
+  margin: 0 7px 1px 0;
+  display: inline-block;
+  width: 286px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.the-well-exclusive {
+  overflow-wrap: break-word;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.more-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.see-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 19px 0px;
+}
+
+.more {
+  margin-right: 7px;
+  width: fit-content;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.see-all-services {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.all-services {
+  margin-right: 10px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+  text-wrap: nowrap;
+}
+.rectangle-62 {
+  margin: 3px 0;
+  width: 12px;
+  height: 8px;
+}
+
+/* page-4 start */
+
+.GEOSIST-Locations {
+  margin: 0 50px 33px 50px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.well-Yonge-Shuter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+}
+.well {
+  background: url("img/rectangle_76.jpeg") 50% / cover no-repeat;
+  width: 100%;
+  height: 429px;
+  transition: transform 2s;
+}
+.well:hover {
+  transform: scale(1.03, 1.04);
+  box-shadow: 0px 0px 5px 3px #262626;
+  
+}
+.Yonge-Shuter {
+  background: url("img/rectangle_77.jpeg") 50% / cover no-repeat;
+  width: 100%;
+  height: 429px;
+  transition: transform 2s;
+}
+.Yonge-Shuter:hover {
+  transform: scale(1, 1.04);
+  box-shadow: 0px 0px 5px 3px #262626;
+}
+
+.w-y-s-service-detail {
+  margin-bottom: 58px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.the-well-1 {
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  padding-left: 39px;
+  box-sizing: border-box;
+ 
+}
+.w-y-s-inner {
+  margin: 40px 67.5px 39px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.w-y-s-header {
+  margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.w-y-s-heading {
+  margin-bottom: 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.w-y-s-details {
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.w-y-s-address {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.w-y-s-addr {
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.4);
+}
+.w-y-s-mobile {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.4);
+}
+.Yonge-Shuter-1 {
+  border: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: row;
+  padding-left: 39px;
+  box-sizing: border-box;
+}
+
+.w-y-s-services {
+  border-left: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  padding-top: 40px;
+}
+.w-y-s-Exclusive-services-heading {
+  margin-bottom: 15px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #c79d5b;
+}
+.w-y-s-list {
+  margin-right: 24.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+  padding-left: 22px;
+}
+
+.services-img {
+  list-style-position: inside;
+}
+.services-list-img {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.service-all {
+  /* margin-bottom: 10px; */
+  width: fit-content;
+  box-sizing: border-box;
+  text-wrap: nowrap;
+}
+.service-all>a{
+  color: #000000;
+}
+/* footer start */
+
+.footer {
+  background: #000000;
+  position: relative;
+  display: flex;
+  padding: 60px 0 0 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.container-footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.fitness-spa-tonichouse-about {
+  margin-bottom: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.fitness-detail {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.fitness-spa-tonichouse-about-header {
+  margin-bottom: 25px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #c79d5b;
+}
+.vector-fitness-detail {
+  display: none;
+}
+.fitness-detail-footer {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.fitness-detail-list {
+  margin-bottom: 15px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container-footer-2 {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.W-Y-S-time-location {
+  margin: 60px 139.2px 98px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.Yonge-Shuter-info {
+  margin-bottom: 43px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Yonge-Shuter-info-addess {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Y-S-heading {
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+  display: flex;
+  align-self: flex-start;
+}
+.Y-S-address-mobile {
+  margin-right: 5.5px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.Y-S-addr {
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--gold, #c79d5b);
+}
+.Y-S-mobile {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--gold, #c79d5b);
+}
+.w-y-s-address {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.open-time {
+  margin-bottom: 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.Monday-Thursday-time {
+  opacity: 0.6;
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: #ffffff;
+}
+.friday-time {
+  opacity: 0.6;
+  margin-bottom: 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: #ffffff;
+}
+.Saturday-time {
+  opacity: 0.6;
+  margin-bottom: 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: #ffffff;
+}
+.Sunday-time {
+  opacity: 0.6;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: #ffffff;
+}
+.w-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.w-info-addess {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.w-heading {
+  margin-bottom: 10px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.w-address-mobile {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.w-addr {
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--gold, #c79d5b);
+}
+.w-mobile {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--gold, #c79d5b);
+}
+.get-connect {
+  border-left: 1px solid #262626;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 72px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.lets-get-connect {
+  margin: 0 7.4px 19px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.get-connected-heading {
+  margin: 0 21.3px 10px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+}
+.get-connect-paraghraph {
+  opacity: 0.6;
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  width: 280px;
+  height: 54px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.personal-detail {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+#fname {
+  border: 0;
+  border-bottom: 1px solid var(--white, #ffffff);
+  background-color: black;
+  outline: 0;
+  color: #ffffff;
+}
+#email {
+  border: 0;
+  border-bottom: 1px solid var(--white, #ffffff);
+  background-color: black;
+  outline: 0;
+  color: #ffffff;
+}
+
+.button-primary-5 {
+  border-radius: 2px;
+  border: 1px solid var(--white, #ffffff);
+  display: flex;
+  padding: 14.5px 0.8px 14.5px 0;
+  width: 280px;
+  box-sizing: border-box;
+}
+.subcribe-btn {
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: var(--white, #ffffff);
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.footer-line-2 {
+  background: #262626;
+  width: 100%;
+  height: 1px;
+}
+
+.footer-icon-policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+  position: relative;
+  background: #000000;
+
+  padding: 24px 236px 25px 0;
+}
+.facebook-insta-youtube-icon {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+.facebook-logo {
+  border-radius: 100px;
+  /* border: 1px solid #262626; */
+  margin-right: 20px;
+  display: flex;
+  padding: 11px 11px;
+  width: 38px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.facebook-logo:hover{
+  background-color: #3B5998;
+}
+.vector-stroke {
+  opacity: 0.6;
+  width: 11.1px;
+  height: 20px;
+}
+.insta-logo {
+  border-radius: 100px;
+  /* border: 1px solid #262626; */
+  margin-right: 20px;
+  display: flex;
+  padding: 12px;
+  width: 38px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.insta-logo:hover{
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.vector {
+  opacity: 0.6;
+  width: 20px;
+  height: 20px;
+}
+.youtube-logo {
+  border-radius: 100px;
+  /* border: 1px solid #262626; */
+  display: flex;
+  padding: 11px;
+  width: 40px;
+  height: 39px;
+  box-sizing: border-box;
+}
+.youtube-logo:hover{
+  background-color: #C31A1E;
+}
+.vector-1 {
+  opacity: 0.6;
+  width: 20px;
+  height: 14.3px;
+}
+
+.footer-copy-right-privacy {
+  margin: 11px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 341.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.copyright-condition {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+#copyright {
+  margin-right: 19.2px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color:  #ffffff!important;
+}
+.term-condition {
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--white, #ffffff);
+}
+.private-policy {
+  overflow-wrap: break-word;
+  font-family: "Sailec", "Roboto Condensed";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.copyright-line {
+  background: #ffffff;
+  margin-right: 19px;
+  width: 1px;
+  height: 18px;
+}
+
+.footer-line-1 {
+  background: #262626;
+  position: absolute;
+  left: 0px;
+  top: 320px;
+  right: 0px;
+  height: 1px;
+}
+
+.anytime-anywhere {
+  background: #0d0d0d;
+  display: flex;
+  padding: 0 3.6px 40px 0;
+  width: 360px;
+  box-sizing: border-box;
+  position: relative;
+}
+.fav-header-btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+.your-header {
+  position: relative;
+  margin-bottom: 188px;
+  display: flex;
+  box-sizing: border-box;
+  width: fit-content;
+  height: 100%;
+  align-items: flex-end;
+  text-wrap: balance;
+}
+.your-heading {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-primary-6 {
+  position: relative;
+  border-radius: 2px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  padding: 15.5px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+  /* right: -40px; */
+  bottom: 183px;
+}
+.get-7-days {
+  margin-right: 10.3px;
+  overflow-wrap: break-word;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+    background-color: transparent;
+}
+.rectangle-64 {
+  margin: 3px 0;
+  width: 12px;
+  height: 8px;
+}
+.mobile-photo {
+  position: absolute;
+  right: 0px;
+  bottom: -63px;
+}
+.mobile-photo-img {
+  height: 277px;
+  width: 174px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  /* header start */
+  .container {
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding: 20px 20.9px 60px 18px;
+  }
+  .header-inner-wrap {
+    width: 100%;
+    align-items: center;
+  }
+  .main-header-logo {
+    background: 50% / cover no-repeat;
+    position: relative;
+    left: 50%;
+    top: 0px;
+    translate: -50% 0;
+    width: 140px;
+    height: 24px;
+    display: block;
+  }
+  .primary {
+    margin: 0;
+  }
+  .frame-1 {
+    margin: 0;
+  }
+  .log-in {
+    display: none;
+  }
+  .frame-2 {
+    display: none;
+  }
+  .inner-frame {
+    margin: 0;
+  }
+  .icon-user {
+    margin: 0;
+  }
+  .Sweat-recover-connect {
+    margin: 0;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+  }
+  .S-R-C {
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .button-primary-2 {
+    margin: 0;
+  }
+
+  /* page-2 start */
+  #page-2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+  }
+  .y-h-r-detail {
+    display: none;
+  }
+  .yoga-page:hover .hit-page:hover .ride-page:hover .y-h-r-detail:hover {
+    display: block;
+}
+  .y-h-r:hover>.y-h-r-header>.y-h-r-detail{
+    display: block;
+  }
+  .y-h-r-join-us-1-2-3{
+    display: none;
+  }
+  .y-h-r:hover>.btn-join-us>.y-h-r-join-us-1-2-3{
+    display: block;
+  }
+  .y-h-r {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 19px 20px 23px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+  /* .y-h-r:hover,.yoga-page:hover, .hit-page:hover, .ride-page:hover {
+    color: black;
+  } */
+  .y-h-r-heading {
+    margin-right: 7px;
+    width: fit-content;
+    overflow-wrap: break-word;
+    font-family: "ABeeZee";
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  .fa-arrow-right {
+    margin: 0;
+    width: 12px;
+    height: 8px;
+  }
+  .yoga-hit-ride {
+    width: 100%;
+    padding: 0;
+  }
+  .fitness-workout {
+    margin: 0 20px 251px 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .classes {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+
+.yoga,.ride,.hit{
+  margin-bottom: 0;
+  width: 50%;
+}
+  .ride-page:hover,
+  .yoga-page:hover,
+  .hit-page:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: url("img/frame_5895.png") 100%,
+      linear-gradient(#ffffff, #ffffff);
+    position: relative;
+    /* padding: 142px 40px 39px 40px; */
+    box-sizing: border-box;
+    color: #000000;
+  }
+  .ride-page:hover,
+.hit-page:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: url("img/frame_5895.png") 100%, linear-gradient(#ffffff, #ffffff);
+  position: relative;
+  padding: 19px 20px 23px 20px;
+  box-sizing: border-box;
+  color: #000000;
+}
+  /* page-3 start */
+
+  .page-3 {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  .wellness-Spa {
+    margin-bottom: 170px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+    margin-right: 0px;
+  }
+  .take-wellness{
+    text-wrap: wrap;
+  }
+  .all-spa-wellness-services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+  .services-list:hover {
+    transform: scale(1.05, 1.1);
+  }
+  .button-primary-4 {
+    border-radius: 2px;
+    background: var(--white, #ffffff);
+    align-self: flex-start;
+    padding: 15.5px 20px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .button-primary-4:hover {
+    background-color: darkgrey;
+    box-shadow: 0px 0px 10px 3px darkgray;
+  }
+
+  .services-list {
+    width: 100%;
+  }
+  .names-line {
+    width: 100%;
+  }
+
+  .exclusive {
+    width: 100%;
+  }
+  .services-name-saltwater-hydrotherapy {
+    width: 100%;
+  }
+  .the-well-exclusive {
+    text-wrap: nowrap;
+  }
+
+  /* page-4 start */
+
+  .well-Yonge-Shuter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .w-y-s-services {
+    flex-direction: column;
+    align-items: flex-start;
+    border: 0;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    padding: 19px 0 20px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .the-well-1 {
+    flex-direction: column;
+    border: 0;
+    padding: 0;
+  }
+  .w-y-s-inner {
+    padding: 19px 0 20px 20px;
+    width: 100%;
+  }
+  .Y-S-heading,
+  .w-heading {
+    font-size: 20px;
+  }
+  .service-all {
+    text-wrap: nowrap;
+    align-items: center;
+    display: flex;
+  }
+  .services-list-img-top {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .Yonge-Shuter-1 {
+    flex-direction: column;
+    border: 0;
+    padding: 0;
+  }
+  /* footer start */
+
+  .footer {
+    padding: 0 0 20px 0;
+    background: var(--black, #000000);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .fitness-spa-tonichouse-about {
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .fitness-detail,
+  .spa-detail,
+  .tonichouse-detail,
+  .about-detail {
+    border-bottom: 1px solid #262626;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 19px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .fitness-spa-tonichouse-about-header {
+    margin-right: 7px;
+    width: 100%;
+    overflow-wrap: break-word;
+    font-family: "ABeeZee";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: var(--gold, #c79d5b);
+  }
+  .fitness-detail-footer,
+  .spa-detail-footer,
+  .tonichouse-detail-footer,
+  .about-detail-footer {
+    display: none;
+  }
+
+  .vector-fitness-detail {
+    display: block;
+    margin: 2px 0;
+    width: 20px;
+    height: 10px;
+  }
+
+  .footer-line-1 {
+    display: none;
+  }
+
+  .container-footer-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: fit-content;
+    margin: 0;
+  }
+  .W-Y-S-time-location {
+    margin: 0 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .Yonge-Shuter-info,
+  .w-info {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+  }
+  .Yonge-Shuter-info-addess,
+  .w-info-addess {
+    margin: 0 25.5px 14px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .get-connect {
+    border-top: 1px solid #262626;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: fit-content;
+    box-sizing: border-box;
+    border-left: 0;
+    margin: 0px 20px 40px 20px;
+  }
+  .lets-get-connect {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .get-connect-paraghraph {
+    width: 100%;
+  }
+  .personal-info {
+    width: 100%;
+  }
+  .personal-detail {
+    width: 100%;
+  }
+  #fname,
+  #email {
+    width: 100%;
+  }
+  .button-primary-5 {
+    width: 100%;
+  }
+
+  .anytime-anywhere {
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+    padding: 40px 32.6px 40px 0;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    height: fit-content;
+  }
+  .your-header {
+    margin-bottom: 45px;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .your-heading {
+    overflow-wrap: break-word;
+    font-family: "ABeeZee";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--white, #ffffff);
+  }
+  .button-primary-6 {
+    border-radius: 2px;
+    background: var(--white, #ffffff);
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 15.5px 20px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .mobile-photo {
+    position: absolute;
+    right: 60px;
+    bottom: -178px;
+  }
+  .mobile-photo-img {
+    width: 135px;
+    height: 282px;
+  }
+
+  .footer-line-2 {
+    width: fit-content;
+  }
+
+  .footer-icon-policy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 40px;
+    align-items: center;
+  }
+  .facebook-insta-youtube-icon {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    column-gap: 20px;
+    width: 160px;
+    box-sizing: border-box;
+  }
+  .facebook-logo {
+    border-radius: 100px;
+    border: 1px solid #262626;
+    display: flex;
+    padding: 9px 13.5px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .vector-stroke {
+    opacity: 0.6;
+    width: 11.1px;
+    height: 20px;
+  }
+
+  .insta-logo {
+    border-radius: 100px;
+    border: 1px solid #262626;
+    display: flex;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .vector {
+    opacity: 0.6;
+    width: 20px;
+    height: 20px;
+  }
+  .youtube-logo {
+    border-radius: 100px;
+    border: 1px solid #262626;
+    display: flex;
+    padding: 11.9px 9px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .vector-1 {
+    opacity: 0.6;
+    width: 20px;
+    height: 14.3px;
+  }
+  .footer-copy-right-privacy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 293.8px;
+    box-sizing: border-box;
+  }
+  .copyright-condition {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .copyright {
+    margin-right: 19px;
+    overflow-wrap: break-word;
+    font-family: "ABeeZee";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    color: var(--white, #ffffff);
+  }
+  .copyright-line {
+    background: #ffffff;
+    margin-right: 19px;
+    width: 1px;
+    height: 15px;
+  }
+  .term-condition {
+    overflow-wrap: break-word;
+    font-family: "Sailec", "Roboto Condensed";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    color: var(--white, #ffffff);
+  }
+  .private-policy {
+    overflow-wrap: break-word;
+    font-family: "Sailec", "Roboto Condensed";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.5;
+    color: var(--white, #ffffff);
+  }
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 935px) {
+  .take-wellness{
+    text-wrap: wrap;
+  }
+  .wellness-Spa{
+    margin-right: 75px;
+  }
+  .w-y-s-service-detail{
+    width: 50%;
+  }
+  .w-y-s-Exclusive-services-heading{
+    margin-right: 0px;
+  }
+ 
+  .W-Y-S-time-location{
+    margin: 60px 78px 98px 0;
+    width: 100%;
+  }
+  .Yonge-Shuter-info, .w-info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .get-connect{
+    justify-content: center;
+    padding: 20px;
+  }
+  .button-primary-6{
+    padding: 6.5px 18px;
+    bottom: 183px;
+  }
+}
+@media screen and (min-width: 935px){
+  .take-wellness{
+    text-wrap: wrap;
+  }
+}
