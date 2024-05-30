@@ -239,7 +239,7 @@ li{
       rgba(0, 0, 0, 0.2) 66.4%
     ),
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("rectangle_73.jpg") 50% / cover no-repeat;
+    url("img/rectangle_73.jpg") 50% / cover no-repeat;
   position: relative;
   display: flex;
   flex-direction: row;
