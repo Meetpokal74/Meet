@@ -1787,3 +1787,9 @@ ul {
 
   /* footer end */
 }
+@media screen and (min-width: 995px) {
+  #me {
+    display: flex !important;
+  }
+
+}
